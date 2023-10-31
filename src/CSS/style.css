@@ -1,11 +1,34 @@
 footer {
-    background-color: #333;
+    background-color:#FC6B07;
     color: #fff;
     padding: 20px;
     text-align: center;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.imagem-footer {
+    max-width: 100%; 
 }
 .footer-content {
-    display: flex;
+   
     justify-content: space-between;
     align-items: center;
+}
+pre {
+    white-space: pre-wrap; 
+    margin: 0; */
+    font-size: 100%;
+}
+
+
+pre.contato {
+    text-align: left;
+    margin-left: -70%; 
+   margin-top: 30%;
+   font-size: 120%;
+}
+pre.Quem-somos{
+    margin-top: -14%;
+    font-size: 120%;
 }
